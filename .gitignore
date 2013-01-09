@@ -1,2 +1,10 @@
-*/xcuserdata/*
+# Xcode
+build/*
+*.pbxuser
+!default.pbxuser
+*.xcworkspace
+!default.xcworkspace
+xcuserdata
+profile
+/Pods/
 .DS_Store

@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "IconLabel.h"
 
-@interface IconCollectionViewController : UICollectionViewController <UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
+@interface IconViewController : UIViewController
+
+@property (strong, nonatomic) IBOutlet IconLabel *icons;
 
 @end
